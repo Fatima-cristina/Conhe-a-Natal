@@ -1,0 +1,15 @@
+img  {
+border-radius: 28px;
+width: 1120px;
+height: 660px;
+}
+
+.container {
+    width: 1120px;
+    height: 729px;
+    gap: 40px;
+    margin: 88px auto;
+}
+header {
+    margin-top: 88px;
+}
