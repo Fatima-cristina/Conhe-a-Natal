@@ -1,15 +1,96 @@
+:root {
+    margin-top: 44px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+    font-family: "Open Sans", sans-serif;
+    background-color: #F5F4F0;
+    border: #D9D9D9;
+    text-decoration-color: #1B1B1B;
+
+    align-items: center;
+
+}
+
 img  {
 border-radius: 28px;
 width: 1120px;
 height: 660px;
+align-items: center;
 }
 
 .container {
     width: 1120px;
     height: 729px;
     gap: 40px;
-    margin: 88px auto;
+    margin-top: 88px;
+    margin-bottom: 40px;
+    align-items: center;
+    margin-right: 80px;
 }
 header {
     margin-top: 88px;
+    align-items: center;
+    
+    
+}
+body {
+    align-items: center;
+    margin-top: 64px;
+}
+
+.container {
+    margin-top: 88px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.description {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    font-weight:normal;
+    align-items: top;
+}
+
+#italico {
+        font-style: italic;
+        color: #696969;
+}
+#headline {
+    color: #E1624F;
+    font-weight: bold;
+}
+#content {
+    margin-top: 64px;
+}
+#fortedosreismagos {
+    align-items: center;
+}
+footer {
+    margin-top: 80px;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: #333333;
+}
+section + section {
+    margin-top: 48px;
 }
